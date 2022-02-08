@@ -1,0 +1,35 @@
+{
+    "os": "macOS-12.0.1-arm64-arm-64bit",
+    "python": "3.8.9",
+    "heartbeatAt": "2022-02-08T18:56:35.417709",
+    "startedAt": "2022-02-08T18:56:35.036353",
+    "docker": null,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [
+        "--img",
+        "640",
+        "--batch",
+        "16",
+        "--epochs",
+        "50",
+        "--data",
+        "dataset.yaml",
+        "--weights",
+        "yolov5m.pt",
+        "--nosave",
+        "--cache"
+    ],
+    "state": "running",
+    "program": "train.py",
+    "codePath": "train.py",
+    "git": {
+        "remote": "https://github.com/MaryamBoneh/Vehicle-Detection.git",
+        "commit": "b8699f8bb70bf8909e68df0e526133df2262e6e7"
+    },
+    "email": "philson.k.philip@gmail.com",
+    "root": "/Users/philson/Projects/Vehicle-Detection",
+    "host": "Philsons-MBP.bbrouter",
+    "username": "philson",
+    "executable": "/Library/Developer/CommandLineTools/usr/bin/python3"
+}

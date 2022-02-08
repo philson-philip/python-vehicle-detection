@@ -1,0 +1,23 @@
+2022-02-09 00:26:35,041 INFO    MainThread:71592 [wandb_setup.py:_flush():75] Loading settings from /Users/philson/.config/wandb/settings
+2022-02-09 00:26:35,042 INFO    MainThread:71592 [wandb_setup.py:_flush():75] Loading settings from /Users/philson/Projects/Vehicle-Detection/wandb/settings
+2022-02-09 00:26:35,042 INFO    MainThread:71592 [wandb_setup.py:_flush():75] Loading settings from environment variables: {}
+2022-02-09 00:26:35,042 INFO    MainThread:71592 [wandb_setup.py:_flush():75] Inferring run settings from compute environment: {'program_relpath': 'train.py', 'program': 'train.py'}
+2022-02-09 00:26:35,042 INFO    MainThread:71592 [wandb_setup.py:_flush():75] Applying login settings: {'mode': 'offline'}
+2022-02-09 00:26:35,042 INFO    MainThread:71592 [wandb_init.py:_log_setup():386] Logging user logs to /Users/philson/Projects/Vehicle-Detection/wandb/offline-run-20220209_002635-2nptor4q/logs/debug.log
+2022-02-09 00:26:35,042 INFO    MainThread:71592 [wandb_init.py:_log_setup():387] Logging internal logs to /Users/philson/Projects/Vehicle-Detection/wandb/offline-run-20220209_002635-2nptor4q/logs/debug-internal.log
+2022-02-09 00:26:35,043 INFO    MainThread:71592 [wandb_init.py:init():420] calling init triggers
+2022-02-09 00:26:35,043 INFO    MainThread:71592 [wandb_init.py:init():425] wandb.init called with sweep_config: {}
+config: {'weights': 'yolov5m.pt', 'cfg': '', 'data': 'dataset.yaml', 'hyp': {'lr0': 0.01, 'lrf': 0.2, 'momentum': 0.937, 'weight_decay': 0.0005, 'warmup_epochs': 3.0, 'warmup_momentum': 0.8, 'warmup_bias_lr': 0.1, 'box': 0.05, 'cls': 0.5, 'cls_pw': 1.0, 'obj': 1.0, 'obj_pw': 1.0, 'iou_t': 0.2, 'anchor_t': 4.0, 'fl_gamma': 0.0, 'hsv_h': 0.015, 'hsv_s': 0.7, 'hsv_v': 0.4, 'degrees': 0.0, 'translate': 0.1, 'scale': 0.5, 'shear': 0.0, 'perspective': 0.0, 'flipud': 0.0, 'fliplr': 0.5, 'mosaic': 1.0, 'mixup': 0.0, 'copy_paste': 0.0}, 'epochs': 50, 'batch_size': 16, 'imgsz': 640, 'rect': False, 'resume': False, 'nosave': True, 'noval': False, 'noautoanchor': False, 'evolve': None, 'bucket': '', 'cache': 'ram', 'image_weights': False, 'device': '', 'multi_scale': False, 'single_cls': False, 'adam': False, 'sync_bn': False, 'workers': 8, 'project': 'runs/train', 'entity': None, 'name': 'exp', 'exist_ok': False, 'quad': False, 'linear_lr': False, 'label_smoothing': 0.0, 'upload_dataset': False, 'bbox_interval': -1, 'save_period': -1, 'artifact_alias': 'latest', 'local_rank': -1, 'freeze': 0, 'patience': 30, 'save_dir': 'runs/train/exp'}
+2022-02-09 00:26:35,043 INFO    MainThread:71592 [wandb_init.py:init():471] starting backend
+2022-02-09 00:26:35,043 INFO    MainThread:71592 [backend.py:_multiprocessing_setup():99] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2022-02-09 00:26:35,057 INFO    MainThread:71592 [backend.py:ensure_launched():219] starting backend process...
+2022-02-09 00:26:35,067 INFO    MainThread:71592 [backend.py:ensure_launched():224] started backend process with pid: 71642
+2022-02-09 00:26:35,069 INFO    MainThread:71592 [wandb_init.py:init():480] backend started and connected
+2022-02-09 00:26:35,081 INFO    MainThread:71592 [wandb_init.py:init():550] updated telemetry
+2022-02-09 00:26:35,098 INFO    MainThread:71592 [wandb_init.py:init():624] starting run threads in backend
+2022-02-09 00:26:35,489 INFO    MainThread:71592 [wandb_run.py:_console_start():1827] atexit reg
+2022-02-09 00:26:35,489 INFO    MainThread:71592 [wandb_run.py:_redirect():1701] redirect: SettingsConsole.REDIRECT
+2022-02-09 00:26:35,490 INFO    MainThread:71592 [wandb_run.py:_redirect():1706] Redirecting console.
+2022-02-09 00:26:35,490 INFO    MainThread:71592 [wandb_run.py:_redirect():1762] Redirects installed.
+2022-02-09 00:26:35,490 INFO    MainThread:71592 [wandb_init.py:init():651] run started, returning control to user process
+2022-02-09 00:26:35,492 INFO    MainThread:71592 [wandb_run.py:_config_callback():966] config_cb None None {'data_dict': {'path': 'Dataset/dataset-vehicles', 'train': 'Dataset/dataset-vehicles/images/train', 'val': 'Dataset/dataset-vehicles/images/val', 'test': None, 'nc': 5, 'names': ['Car', 'Motorcycle', 'Truck', 'Bus', 'Bicycle']}}
